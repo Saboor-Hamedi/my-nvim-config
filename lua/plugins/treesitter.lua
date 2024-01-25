@@ -6,7 +6,8 @@ return {
     configs.setup({
         highlight = {enable = true}, 
         indent = {enable = true},
-        ensure_installed = {"bash",
+        ensure_installed = {
+        "bash",
         "java",
         "diff",
         "html",

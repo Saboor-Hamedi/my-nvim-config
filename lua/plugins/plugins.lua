@@ -14,7 +14,7 @@ return {
               visible = true, 
               show_hidden_count = true, 
               hide_gitignored = true,
-              hide_dotfiles = true,
+              hide_dotfiles = false,
               width = 10
             }
            }
@@ -22,3 +22,4 @@ return {
       }
     }
 }
+
