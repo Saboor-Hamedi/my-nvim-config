@@ -1,9 +1,12 @@
-return { {
-      "craftzdog/solarized-osaka.nvim",
-      lazy =false,
-      config = function()
-      vim.cmd("colorscheme solarized-osaka")
-      end 
-    }
+return {
 
+  { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
+  {
+
+    "LazyVim/LazyVim",
+    opts = {
+      style = "murphy",
+      colorscheme = "murphy",
+    },
+  },
 }
