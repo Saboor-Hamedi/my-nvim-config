@@ -1,12 +1,17 @@
 return {
-
-  { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
+  -- add gruvbox
+  { "folke/tokyonight.nvim", lazy = false, priority = 1000 },
+  -- Configure LazyVim to load gruvbox
   {
-
     "LazyVim/LazyVim",
+    -- tokyonight
+    -- require("tokyonight").setup({
     opts = {
-      style = "murphy",
       colorscheme = "murphy",
     },
+    styles = {
+      transparent = false,
+    },
+    -- }),
   },
 }
