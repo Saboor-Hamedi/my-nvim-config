@@ -1,17 +1,12 @@
 return {
-  -- add gruvbox
-  { "folke/tokyonight.nvim", lazy = false, priority = 1000 },
-  -- Configure LazyVim to load gruvbox
   {
-    "LazyVim/LazyVim",
-    -- tokyonight
-    -- require("tokyonight").setup({
-    opts = {
-      colorscheme = "murphy",
-    },
-    styles = {
-      transparent = false,
-    },
-    -- }),
+    "askfiy/visual_studio_code",
+    priority = 100,
+    config = function()
+      vim.cmd([[colorscheme visual_studio_code]])
+      options = {
+        transparent = true,
+      }
+    end,
   },
 }
