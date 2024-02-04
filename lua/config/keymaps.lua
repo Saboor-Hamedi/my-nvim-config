@@ -36,3 +36,9 @@ map("n", "<C-w><down>", "<C-w>-")
 map("n", "dd", "dd", opts)
 -- Caps Lock as Escape in Insert mode
 vim.api.nvim_set_keymap("i", "<leader>ck", "<Esc>", { noremap = true })
+
+-- Enable the ruler
+vim.api.nvim_set_option("ruler", true)
+map("n", "<F5>", ":set linebreak<CR>")
+map("n", "<C-F5>", ":set nolinebreak<CR>")
+-- nnoremap <C-F5> :set nolinebreak<CR>

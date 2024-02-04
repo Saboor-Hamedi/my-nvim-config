@@ -1,12 +1,9 @@
 return {
   {
-    "askfiy/visual_studio_code",
-    priority = 100,
+    "embark-theme/vim",
+    as = "embark",
     config = function()
-      vim.cmd([[colorscheme visual_studio_code]])
-      options = {
-        transparent = true,
-      }
+      vim.cmd("colorscheme embark")
     end,
   },
 }
