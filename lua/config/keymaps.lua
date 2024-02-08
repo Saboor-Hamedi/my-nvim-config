@@ -5,8 +5,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 -- nvimtree
 map("n", "<C-b>", ":Neotree toggle<CR>", opts)
---
 map("n", "<C-Left>", "<C-w><")
+
 map("n", "<C-Right>", "<C-w>>")
 map("n", "<C-Up>", "<C-w>+")
 map("n", "<C-Down>", "<C-w>-")
@@ -16,10 +16,8 @@ map("n", "<C-a>", "gg<S-v>G")
 map("n", "ss", ":sp<CR>", opts)
 -- Split window vertically
 map("n", "vs", ":vsp<CR>", opts)
-
 -- Move to the next buffer in the current split
 map("n", "<leader>bn", ":bnext<CR>", opts)
-
 -- Move to the previous buffer in the current split
 map("n", "<leader>bp", ":bprev<CR>", opts)
 -- Move wind
@@ -34,11 +32,12 @@ map("n", "<C-w><up>", "<C-w>+")
 map("n", "<C-w><down>", "<C-w>-")
 -- delete line
 map("n", "dd", "dd", opts)
+map("n", "<C-j>", "<cmd>ToggleTerm<CR>", { noremap = true, silent = true })
+-- lsp
+map("n", "K", "<cmd>lua vim.lsp.buf.hover()<rc>", opts)
 -- Caps Lock as Escape in Insert mode
-vim.api.nvim_set_keymap("i", "<leader>ck", "<Esc>", { noremap = true })
-
+map("i", "<leader>o", "<Esc>", { noremap = true })
 -- Enable the ruler
-vim.api.nvim_set_option("ruler", true)
-map("n", "<F5>", ":set linebreak<CR>")
-map("n", "<C-F5>", ":set nolinebreak<CR>")
--- nnoremap <C-F5> :set nolinebreak<CR>
+map("n", "<leader>r", "<cmd>lua vim.lsp.buf.rename()<cr>", opts)
+map("n", "gs", "<cmd>lua vim.lsp.buf.signature_help()<cr>", opts)
+map("n", "gd", "<cmd>lua vim.lsp.buf.definition()<cr>", opts)
