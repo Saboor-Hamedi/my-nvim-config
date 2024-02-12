@@ -1,7 +1,6 @@
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
-    "dstein64/vim-startuptime",
     branch = "v3.x",
     requires = {
       "nvim-lua/plenary.nvim",

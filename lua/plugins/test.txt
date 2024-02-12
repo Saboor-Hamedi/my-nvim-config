@@ -1,6 +1,5 @@
-require("onedarkpro").setup({
-  colors = {
-    onedark = { bg = "#FFFF00" }, -- yellow
-    onelight = { bg = "#00FF00" }, -- green
-  }
-})
+1.Hello World
+
+How are you?   
+
+I am good, this is a dummy text

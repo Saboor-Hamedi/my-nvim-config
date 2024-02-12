@@ -3,6 +3,10 @@ local opts = { noremap = true, silent = true }
 map("n", "<Space>", "", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+-- save
+map("n", "<c-s>", ":wa<CR>", opts)
+-- close
+map("n", "<leader>q", ":q<CR>", opts)
 -- nvimtree
 map("n", "<C-b>", ":Neotree toggle<CR>", opts)
 map("n", "<C-Left>", "<C-w><")
