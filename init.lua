@@ -1,2 +1,5 @@
-require("vim-options")
-require("config.lazy")
+-- vim.cmd('set guifont=*')
+require('core.options')
+require('core.comment')
+require('config.nvim-tree')
+require('plugins-setup')

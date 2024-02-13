@@ -1,5 +1,0 @@
-1.Hello World
-
-How are you?   
-
-I am good, this is a dummy text
