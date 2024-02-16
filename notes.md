@@ -1,6 +1,6 @@
 # Best Vim practice
 
-VIM is one the fastest terminal based IDE, there could be different ideas for defining vim, but 
+'VIM' is one the fastest terminal based IDE, there could be different ideas for defining vim, but 
 I would call it "terminal based IDE" vim enabled you to code faster and and have more control over 
 your IDE. There are alot of IDE that you work with, such as Sublime, Vscode,and Notepad++ 
 
@@ -17,6 +17,12 @@ the keys.
     * You must be patient 
     * You must pratice alot
     * You must know how remember the keysmaps (shortcuts)
+  
+ ## Move around
+    Move the cursor to the right `h`
+    Move the cursor to the left 'l'
+    Move the cursor to down `j`
+    Move the cursor to top `k`
 
  Delete insid the double qoute 
  "Delete me with " -> ci"  lets say there insid the double qoute there are text
@@ -28,16 +34,17 @@ the keys.
 . **dw** delete a single word, this will basically delete from the cursor till the end
 . **d$** delete from the cursor position
 . **zt** move the screen cursor to the top
-. **ci** delete the work from inside the double qoute, single qoute, **{}** and other symbols
+. **ci** delete the work from inside the "double" qoute, 'single' qoute, **{}** and other symbols
+. **di** delete from `""`, `''` and other symbols
 . **cc** will delete the whole line, unline **dw** which deletes a single word
 . **e** move one word 
 . **ve** select from the cursor position to the end the word
-
 
 ## Move quickly
 The purpose of vim is to navigate quickly over you app and notes, or any other things. For that
 there are plugins, but I would rather choose the core vim which enables me to move faster inside
 the buffer. 
+
 On `NORMAL` mode press `s` and you will the text inside you buffer disables, click any other lettersthat you want to jump on, and see the next letter is highlighted press it and it will take to that
 word. 
 
