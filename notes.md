@@ -29,17 +29,17 @@ the keys.
  just press ci and ", it will basically delete the text. 
  "Hello world" same thing goes for others like (){}[]
  'Hello world'
-. **GG** move the cursor to the last line, it works with G as well,
+`. **GG** move the cursor to the last line, it works with G as well,
 . **gg** move the cursor to the top of the line at the very top of the page. 
 . **dw** delete a single word, this will basically delete from the cursor till the end
 . **d$** delete from the cursor position
 . **zt** move the screen cursor to the top
 . **ci** delete the work from inside the "double" qoute, 'single' qoute, **{}** and other symbols
-. **di** delete from `""`, `''` and other symbols
+. **di** delete from "", '' and other symbols
 . **cc** will delete the whole line, unline **dw** which deletes a single word
 . **e** move one word 
 . **ve** select from the cursor position to the end the word
-
+`
 ## Move quickly
 The purpose of vim is to navigate quickly over you app and notes, or any other things. For that
 there are plugins, but I would rather choose the core vim which enables me to move faster inside
