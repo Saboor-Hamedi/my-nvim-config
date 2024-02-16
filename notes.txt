@@ -1,0 +1,5 @@
+# LazyVim
+    * Hello
+    * Hi
+      -I am good
+      -Thank you
