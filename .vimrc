@@ -5,3 +5,5 @@ Plug 'https://github.com/preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 call plug#end()
+
+

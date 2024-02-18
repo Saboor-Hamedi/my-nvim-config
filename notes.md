@@ -46,7 +46,6 @@ yap select te whole textwidth
 Plugin:[Surround](https://github.com/kylechui/nvim-surround)
   ```
 
-
          Old text                    Command         New text
   --------------------------------------------------------------------------------
       surr*ound_words             ysiw)           lsurround_wordsl
