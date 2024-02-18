@@ -37,7 +37,28 @@ cc will delete the whole line, unline **dw** which deletes a single word
 e move one word 
 ve select from the cursor position to the end the word
 yap select te whole textwidth 
+{-} beginning /end of pragraph
 ```
+## Surround
+  `viw` selects the current word, using j/k to modify the selection where required. 
+  `o` toggles which end of the selection is expanded/shrunk.
+  `s` substitues the selection, type the characters to surround the selection.
+  `p` to pase the original text
+  For more advance you check this plugin https://github.com/kylechui/nvim-surround
+  ```
+      Old text                    Command         New text
+  --------------------------------------------------------------------------------
+      surr*ound_words             ysiw)           lsurround_wordsl
+      *make strings               ys$"            "make strings"
+      [delete ar*ound me!]        ds]             delete around me!
+      remove <b>HTML t*ags</b>    dst             remove HTML tags
+      'change quot*es'            cs'"            "change quotes"
+      <b>or tag* types</b>        csth1<CR>       <div>or tag types</div>
+      functi*on calls     dsf             function calls
+  ```
+ 1.`ysiw` this surrounds a single word.
+ 2.`ys$` this `surrounds` the whole line
+
 ## Move quickly
   The purpose of vim is to navigate quickly over you app and notes, or any other things  For that
   there are plugins, but I would rather choose the core vim which enables me to move faster inside
