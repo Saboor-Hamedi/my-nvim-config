@@ -19,7 +19,7 @@ the keys
   * You must know how remember the keysmaps (shortcuts)
 ## Move around
   Move the cursor to the right `h`
-  Move the cursor to the left 'l'
+  Move the cursor to the left `'l'`
   Move the cursor to down `j`
   Move the cursor to top `k`
 
@@ -43,8 +43,7 @@ yap select te whole textwidth
   there are plugins, but I would rather choose the core vim which enables me to move faster inside
   the buffer  
 
-  On `NORMAL` mode press `s` and you will the text inside you buffer disables, 
-  and it will take to that word  
+  On `NORMAL` mode press `s` and you will the text inside you buffer disables, and it will take to that word  
 
 **set ColorColumn:**
   This will puts a line on the right side of your terminal.Here how you canofigure it.
