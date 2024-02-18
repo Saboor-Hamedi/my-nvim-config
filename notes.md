@@ -1,5 +1,4 @@
 # Best Vim practice
-
 'VIM' is one the fastest terminal based IDE, there could be different ideas for defining vim, but 
 I would call it "terminal based IDE" vim enabled you to code faster and and have more control over 
 your IDE  There are alot of IDE that you work with, such as Sublime, Vscode,and Notepad++ 
@@ -40,13 +39,15 @@ yap select te whole textwidth
 {-} beginning /end of pragraph
 ```
 ## Surround
-  `viw` selects the current word, using j/k to modify the selection where required. 
-  `o` toggles which end of the selection is expanded/shrunk.
-  `s` substitues the selection, type the characters to surround the selection.
-  `p` to pase the original text
-  For more advance you check this plugin https://github.com/kylechui/nvim-surround
+`viw` selects the current word, using j/k to modify the selection where required. 
+`o` toggles which end of the selection is expanded/shrunk.
+`s` substitues the selection, type the characters to surround the selection.
+`p` to pase the original text
+Plugin:[Surround](https://github.com/kylechui/nvim-surround)
   ```
-      Old text                    Command         New text
+
+
+         Old text                    Command         New text
   --------------------------------------------------------------------------------
       surr*ound_words             ysiw)           lsurround_wordsl
       *make strings               ys$"            "make strings"
@@ -56,10 +57,13 @@ yap select te whole textwidth
       <b>or tag* types</b>        csth1<CR>       <div>or tag types</div>
       functi*on calls     dsf             function calls
   ```
- 1.`ysiw` this surrounds a single word.
+ 1.`ysiw` this surrounds a 'single' word.
  2.`ys$` this `surrounds` the whole line
-
+ 3.`ds]` delete around lExampel
+ 4.dst rmove HTML tags
+ 5.`cs` change the qoutes this ' to this "
 ## Move quickly
+
   The purpose of vim is to navigate quickly over you app and notes, or any other things  For that
   there are plugins, but I would rather choose the core vim which enables me to move faster inside
   the buffer  
@@ -70,12 +74,4 @@ yap select te whole textwidth
   This will puts a line on the right side of your terminal.Here how you canofigure it.
   1.Open you options.lua wrote `vim.opt.colorcolumn ='80'`, this will work with lazyvim totally fine
   without lazyvim you would add this  `:set colorcolumn = '80'`.
-  2.Press shift+: write this hi ColorColumn ctermbg=lightgrey guibg=lightgrey
-
-
-
-
-
-
-
-
+2.Press shift+: write this hi ColorColumn ctermbg=lightgrey guibg=lightgrey
