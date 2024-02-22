@@ -1,10 +1,5 @@
 # Best Vim practice
 'VIM' is one the fastest terminal based IDE, there could be different ideas for defining vim, but 
-I would call it "terminal based IDE" vim enabled you to code faster and and have more control over 
-your IDE  There are alot of IDE that you work with, such as Sublime, Vscode,and Notepad++ 
-
-Vim is hard and easy, one cannot learn vim over night, it needs alot of practice, memorization of 
-the keys 
 `Note:` I am also learning vim,this note by no means would be perfect,but I am sure if you follow this note, you will learn alot  
 
 ## Best Pratice
@@ -46,15 +41,15 @@ yap select te whole textwidth
 Plugin:[Surround](https://github.com/kylechui/nvim-surround)
   ```
 
-         Old text                    Command         New text
-  --------------------------------------------------------------------------------
-      surr*ound_words             ysiw)           lsurround_wordsl
-      *make strings               ys$"            "make strings"
-      [delete ar*ound me!]        ds]             delete around me!
-      remove <b>HTML t*ags</b>    dst             remove HTML tags
-      'change quot*es'            cs'"            "change quotes"
-      <b>or tag* types</b>        csth1<CR>       <div>or tag types</div>
-      functi*on calls     dsf             function calls
+      Old text                    Command         New text
+--------------------------------------------------------------------------------
+    surr*ound_words             ysiw)           lsurround_wordsl
+    *make strings               ys$"            "make strings"
+    [delete ar*ound me!]        ds]             delete around me!
+    remove <b>HTML t*ags</b>    dst             remove HTML tags
+    'change quot*es'            cs'"            "change quotes"
+    <b>or tag* types</b>        csth1<CR>       <div>or tag types</div>
+    functi*on calls     dsf             function calls
   ```
  1.`ysiw` this surrounds a 'single' word.
  2.`ys$` this `surrounds` the whole line
@@ -67,7 +62,8 @@ Plugin:[Surround](https://github.com/kylechui/nvim-surround)
   there are plugins, but I would rather choose the core vim which enables me to move faster inside
   the buffer  
 
-  On `NORMAL` mode press `s` and you will the text inside you buffer disables, and it will take to that word  
+  On `NORMAL` mode press `s` and you will the text inside you buffer disables, and it will take
+  to that word  
 
 **set ColorColumn:**
   This will puts a line on the right side of your terminal.Here how you canofigure it.

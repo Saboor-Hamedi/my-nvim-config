@@ -1,14 +1,8 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
---
 local map = vim.keymap.set --for conciseness
 local opts = { noremap = true }
-
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-map("n", "<leader>tx", ":tabc<CR>")
--- map("i", "<leader>o", "<ESC>") -- escape insert mode
+-- map("i", "<leader>o", "<ESC><CR>") -- escape insert mode
 map("n", "<leader>nh", ":nohl<CR>") -- deselect text
 map("n", "x", '"_x') -- delete single letter but not copy it
 map("n", "<C-A>+", "<C-a>") --increase number
